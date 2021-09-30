@@ -1,0 +1,874 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Wire Wire Line
+	3350 2450 3900 2450
+Text Label 3450 2450 0    50   ~ 0
+SCSI_DAT0
+Wire Wire Line
+	3350 2350 3900 2350
+Text Label 3450 2350 0    50   ~ 0
+SCSI_DAT1
+Wire Wire Line
+	1600 3450 1150 3450
+Text Label 1200 3450 0    50   ~ 0
+SCSI_DAT2
+Wire Wire Line
+	1600 3550 1150 3550
+Text Label 1200 3550 0    50   ~ 0
+SCSI_DAT3
+Wire Wire Line
+	3350 3950 3900 3950
+Text Label 3450 3950 0    50   ~ 0
+SCSI_DAT4
+Wire Wire Line
+	3350 3850 3900 3850
+Wire Wire Line
+	3350 3650 3900 3650
+Wire Wire Line
+	3350 3750 3900 3750
+Text Label 3450 3850 0    50   ~ 0
+SCSI_DAT5
+Text Label 3450 3750 0    50   ~ 0
+SCSI_DAT6
+Text Label 3450 3650 0    50   ~ 0
+SCSI_DAT7
+Wire Wire Line
+	1600 3250 1150 3250
+Text Label 1200 3250 0    50   ~ 0
+SCSI_DBP
+Wire Wire Line
+	3350 3350 3900 3350
+Wire Wire Line
+	3350 3450 3900 3450
+Wire Wire Line
+	3350 3550 3900 3550
+Text Label 3450 3550 0    50   ~ 0
+SCSI_ATN
+Text Label 3450 3450 0    50   ~ 0
+SCSI_BSY
+Text Label 3450 3350 0    50   ~ 0
+SCSI_ACK
+Wire Wire Line
+	3350 3050 3900 3050
+Text Label 3450 3050 0    50   ~ 0
+SCSI_RST
+Wire Wire Line
+	3350 2550 3900 2550
+Wire Wire Line
+	3350 2650 3900 2650
+Wire Wire Line
+	3350 2750 3900 2750
+Wire Wire Line
+	3350 2850 3900 2850
+Wire Wire Line
+	3350 2950 3900 2950
+Text Label 3450 2950 0    50   ~ 0
+SCSI_MSG
+Text Label 3450 2850 0    50   ~ 0
+SCSI_SEL
+Text Label 3450 2750 0    50   ~ 0
+SCSI_CD
+Text Label 3450 2650 0    50   ~ 0
+SCSI_REQ
+Text Label 3450 2550 0    50   ~ 0
+SCSI_IO
+Wire Wire Line
+	1600 3850 1350 3850
+Wire Wire Line
+	1350 3850 1350 3950
+Wire Wire Line
+	1600 3950 1350 3950
+Connection ~ 1350 3950
+Wire Wire Line
+	1350 3950 1350 4150
+$Comp
+L power:GND #PWR0102
+U 1 1 5F054918
+P 1350 4150
+F 0 "#PWR0102" H 1350 3900 50  0001 C CNN
+F 1 "GND" H 1355 3977 50  0000 C CNN
+F 2 "" H 1350 4150 50  0001 C CNN
+F 3 "" H 1350 4150 50  0001 C CNN
+	1    1350 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3350 2250 4050 2250
+Wire Wire Line
+	4050 2250 4050 1950
+Wire Wire Line
+	3350 2050 3550 2050
+Wire Wire Line
+	3550 2050 3550 1950
+Wire Wire Line
+	3350 2150 4250 2150
+Wire Wire Line
+	4250 2150 4250 2300
+$Comp
+L power:GND #PWR0104
+U 1 1 5F05BD87
+P 4250 2300
+F 0 "#PWR0104" H 4250 2050 50  0001 C CNN
+F 1 "GND" H 4255 2127 50  0000 C CNN
+F 2 "" H 4250 2300 50  0001 C CNN
+F 3 "" H 4250 2300 50  0001 C CNN
+	1    4250 2300
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0106
+U 1 1 5F05CE0E
+P 3550 1950
+F 0 "#PWR0106" H 3550 1800 50  0001 C CNN
+F 1 "+3.3V" H 3565 2123 50  0000 C CNN
+F 2 "" H 3550 1950 50  0001 C CNN
+F 3 "" H 3550 1950 50  0001 C CNN
+	1    3550 1950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 3750 900  3750
+Wire Wire Line
+	900  3750 900  3650
+$Comp
+L power:+3.3V #PWR0107
+U 1 1 5F05ECF2
+P 900 3650
+F 0 "#PWR0107" H 900 3500 50  0001 C CNN
+F 1 "+3.3V" H 915 3823 50  0000 C CNN
+F 2 "" H 900 3650 50  0001 C CNN
+F 3 "" H 900 3650 50  0001 C CNN
+	1    900  3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1600 2850 1150 2850
+Wire Wire Line
+	1600 2950 1150 2950
+Wire Wire Line
+	1600 3050 1150 3050
+Wire Wire Line
+	1600 3150 1150 3150
+Text Label 1200 2850 0    50   ~ 0
+SD_CS
+Text Label 1200 2950 0    50   ~ 0
+SD_CLK
+Text Label 1200 3050 0    50   ~ 0
+SD_MISO
+Text Label 1200 3150 0    50   ~ 0
+SD_MOSI
+Wire Wire Line
+	8550 4250 8050 4250
+Text Label 8150 4250 0    50   ~ 0
+SD_CLK
+Text Label 8150 4450 0    50   ~ 0
+SD_MISO
+Text Label 8150 4050 0    50   ~ 0
+SD_MOSI
+Text Label 8150 3950 0    50   ~ 0
+SD_CS
+$Comp
+L power:+3.3V #PWR0108
+U 1 1 5F08F209
+P 7800 4150
+F 0 "#PWR0108" H 7800 4000 50  0001 C CNN
+F 1 "+3.3V" H 7800 4300 50  0000 C CNN
+F 2 "" H 7800 4150 50  0001 C CNN
+F 3 "" H 7800 4150 50  0001 C CNN
+	1    7800 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8550 4350 7950 4350
+Wire Wire Line
+	7950 4350 7950 4600
+$Comp
+L power:GND #PWR0109
+U 1 1 5F092548
+P 7950 4600
+F 0 "#PWR0109" H 7950 4350 50  0001 C CNN
+F 1 "GND" H 7955 4427 50  0000 C CNN
+F 2 "" H 7950 4600 50  0001 C CNN
+F 3 "" H 7950 4600 50  0001 C CNN
+	1    7950 4600
+	1    0    0    -1  
+$EndComp
+$Comp
+L bluepill_scsi-rescue:BluePill_STM32F103C-bluepill U1
+U 1 1 5F01A526
+P 2450 2750
+F 0 "U1" H 2475 1277 50  0000 C CNN
+F 1 "BluePill_STM32F103C" H 2475 1186 50  0000 C CNN
+F 2 "BluePill_breakouts:BluePill_STM32F103C" H 2500 1150 50  0001 C CNN
+F 3 "www.rogerclark.net" H 2450 1250 50  0001 C CNN
+	1    2450 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Micro_SD_Card J1
+U 1 1 5F0BA382
+P 9450 4150
+F 0 "J1" H 9400 4867 50  0000 C CNN
+F 1 "Micro_SD_Card" H 9400 4776 50  0000 C CNN
+F 2 "Connector_Card:microSD_HC_Molex_104031-0811" H 10600 4450 50  0001 C CNN
+F 3 "https://www.mouser.com/datasheet/2/276/1/1040310811_MEMORY_CARD_SOCKET-153593.pdf" H 9450 4150 50  0001 C CNN
+F 4 "https://www.mouser.com/ProductDetail/538-104031-0811" H 9450 4150 50  0001 C CNN "Mouser"
+	1    9450 4150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	10250 4750 10450 4750
+Wire Wire Line
+	10450 4750 10450 4900
+$Comp
+L power:GND #PWR0110
+U 1 1 5F0D8D42
+P 10450 4900
+F 0 "#PWR0110" H 10450 4650 50  0001 C CNN
+F 1 "GND" H 10455 4727 50  0000 C CNN
+F 2 "" H 10450 4900 50  0001 C CNN
+F 3 "" H 10450 4900 50  0001 C CNN
+	1    10450 4900
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1600 2050
+NoConn ~ 1600 2250
+NoConn ~ 1600 2350
+NoConn ~ 1600 2450
+NoConn ~ 1600 2550
+NoConn ~ 1600 2650
+NoConn ~ 1600 2750
+NoConn ~ 1600 3650
+NoConn ~ 3350 3150
+NoConn ~ 3350 3250
+NoConn ~ 2400 850 
+NoConn ~ 2500 850 
+NoConn ~ 1600 3350
+Wire Wire Line
+	8550 4150 7800 4150
+$Comp
+L Device:Jumper JP1
+U 1 1 5F9B37AA
+P 7900 1400
+F 0 "JP1" H 7950 1350 50  0000 R CNN
+F 1 "TERM_ENABLE_GND" H 8250 1550 50  0000 R CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 7900 1400 50  0001 C CNN
+F 3 "~" H 7900 1400 50  0001 C CNN
+F 4 "https://www.mouser.com/ProductDetail/872-920-0011-01" H 7900 1400 50  0001 C CNN "Mouser"
+F 5 "https://www.mouser.com/ProductDetail/151-8001-E" H 7900 1400 50  0001 C CNN "Mouser_1"
+	1    7900 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:Jumper JP2
+U 1 1 5F9B5280
+P 8250 1400
+F 0 "JP2" H 8300 1350 50  0000 R CNN
+F 1 "TERM_ENABLE_5V" H 8550 1550 50  0000 R CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 8250 1400 50  0001 C CNN
+F 3 "~" H 8250 1400 50  0001 C CNN
+F 4 "https://www.mouser.com/ProductDetail/872-920-0011-01" H 8250 1400 50  0001 C CNN "Mouser"
+F 5 "https://www.mouser.com/ProductDetail/151-8001-E" H 8250 1400 50  0001 C CNN "Mouser_1"
+	1    8250 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L power:GND #PWR0111
+U 1 1 5F9B6506
+P 7900 1000
+F 0 "#PWR0111" H 7900 750 50  0001 C CNN
+F 1 "GND" H 7905 827 50  0000 C CNN
+F 2 "" H 7900 1000 50  0001 C CNN
+F 3 "" H 7900 1000 50  0001 C CNN
+	1    7900 1000
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7900 1000 7900 1100
+Wire Wire Line
+	8450 850  8450 1700
+Wire Wire Line
+	8450 1700 8250 1700
+Wire Wire Line
+	7900 1800 7900 1700
+Wire Wire Line
+	8550 4050 8050 4050
+Wire Wire Line
+	8550 3950 8050 3950
+Wire Wire Line
+	8550 4450 8050 4450
+Wire Notes Line
+	7650 700  11100 700 
+Wire Notes Line
+	11100 700  11100 2800
+Wire Notes Line
+	11100 2800 7650 2800
+Wire Notes Line
+	7650 2800 7650 700 
+Wire Notes Line
+	4550 4600 600  4600
+Wire Notes Line
+	600  4600 600  700 
+Wire Notes Line
+	600  700  4550 700 
+Text Notes 2150 4550 0    50   ~ 0
+BluePill STM32
+Wire Notes Line
+	7650 3300 7650 5250
+Wire Notes Line
+	7650 5250 10650 5250
+Wire Notes Line
+	10650 5250 10650 3300
+Wire Notes Line
+	10650 3300 7650 3300
+Text Notes 8900 5200 0    50   ~ 0
+Micro SD Card
+Wire Notes Line
+	2700 6500 2700 7450
+Wire Notes Line
+	2700 7450 650  7450
+Wire Notes Line
+	650  7450 650  6500
+Wire Notes Line
+	650  6500 2700 6500
+Text Notes 1400 7400 0    50   ~ 0
+Mounting Hole
+Text Label 8700 2600 1    50   ~ 0
+SCSI_IO
+Text Label 8800 2600 1    50   ~ 0
+SCSI_REQ
+Text Label 8900 2600 1    50   ~ 0
+SCSI_CD
+Text Label 9000 2600 1    50   ~ 0
+SCSI_MSG
+Text Label 9100 2600 1    50   ~ 0
+SCSI_BSY
+Text Label 9200 2600 1    50   ~ 0
+SCSI_SEL
+Text Label 9300 2600 1    50   ~ 0
+SCSI_RST
+Text Label 9400 2600 1    50   ~ 0
+SCSI_ACK
+Text Label 9500 2600 1    50   ~ 0
+SCSI_ATN
+Wire Wire Line
+	8700 2200 8700 2600
+Wire Wire Line
+	8800 2200 8800 2600
+Wire Wire Line
+	8900 2200 8900 2600
+Wire Wire Line
+	9000 2200 9000 2600
+Wire Wire Line
+	9100 2200 9100 2600
+Wire Wire Line
+	9200 2200 9200 2600
+Wire Wire Line
+	9300 2200 9300 2600
+Wire Wire Line
+	9400 2200 9400 2600
+Wire Wire Line
+	9500 2200 9500 2600
+Text Label 9950 2600 1    50   ~ 0
+SCSI_DBP
+Text Label 9950 1650 1    50   ~ 0
+SCSI_DBP
+Text Notes 7700 2750 0    50   ~ 0
+SCSI Termination Resistors
+Text Label 10750 2600 1    50   ~ 0
+SCSI_DAT7
+Text Label 10650 2600 1    50   ~ 0
+SCSI_DAT6
+Text Label 10250 2600 1    50   ~ 0
+SCSI_DAT2
+Text Label 10550 2600 1    50   ~ 0
+SCSI_DAT5
+Text Label 10450 2600 1    50   ~ 0
+SCSI_DAT4
+Text Label 10350 2600 1    50   ~ 0
+SCSI_DAT3
+Text Label 10150 2600 1    50   ~ 0
+SCSI_DAT1
+Wire Wire Line
+	10750 2200 10750 2600
+Wire Wire Line
+	10650 2200 10650 2600
+Wire Wire Line
+	10550 2200 10550 2600
+Wire Wire Line
+	10450 2200 10450 2600
+Wire Wire Line
+	10350 2200 10350 2600
+Wire Wire Line
+	10250 2200 10250 2600
+Wire Wire Line
+	10150 2200 10150 2600
+Wire Wire Line
+	10050 2200 10050 2600
+Wire Wire Line
+	9950 2200 9950 2600
+Text Label 10050 2600 1    50   ~ 0
+SCSI_DAT0
+Text Label 10750 1650 1    50   ~ 0
+SCSI_DAT7
+Text Label 10650 1650 1    50   ~ 0
+SCSI_DAT6
+Text Label 10250 1650 1    50   ~ 0
+SCSI_DAT2
+Text Label 10550 1650 1    50   ~ 0
+SCSI_DAT5
+Text Label 10450 1650 1    50   ~ 0
+SCSI_DAT4
+Text Label 10350 1650 1    50   ~ 0
+SCSI_DAT3
+Text Label 10150 1650 1    50   ~ 0
+SCSI_DAT1
+Wire Wire Line
+	9500 1250 9500 1650
+Wire Wire Line
+	9400 1250 9400 1650
+Wire Wire Line
+	9300 1250 9300 1650
+Wire Wire Line
+	9200 1250 9200 1650
+Wire Wire Line
+	9100 1250 9100 1650
+Wire Wire Line
+	9000 1250 9000 1650
+Wire Wire Line
+	8900 1250 8900 1650
+Wire Wire Line
+	8800 1250 8800 1650
+Wire Wire Line
+	8700 1250 8700 1650
+Wire Wire Line
+	10750 1250 10750 1650
+Wire Wire Line
+	10650 1250 10650 1650
+Wire Wire Line
+	10550 1250 10550 1650
+Wire Wire Line
+	10450 1250 10450 1650
+Wire Wire Line
+	10350 1250 10350 1650
+Wire Wire Line
+	10250 1250 10250 1650
+Wire Wire Line
+	10150 1250 10150 1650
+Wire Wire Line
+	10050 1250 10050 1650
+Wire Wire Line
+	9950 1250 9950 1650
+Text Label 10050 1650 1    50   ~ 0
+SCSI_DAT0
+Text Label 9500 1650 1    50   ~ 0
+SCSI_ATN
+Text Label 9400 1650 1    50   ~ 0
+SCSI_ACK
+Text Label 9300 1650 1    50   ~ 0
+SCSI_RST
+Text Label 9200 1650 1    50   ~ 0
+SCSI_SEL
+Text Label 9100 1650 1    50   ~ 0
+SCSI_BSY
+Text Label 9000 1650 1    50   ~ 0
+SCSI_MSG
+Text Label 8900 1650 1    50   ~ 0
+SCSI_CD
+Text Label 8800 1650 1    50   ~ 0
+SCSI_REQ
+Text Label 8700 1650 1    50   ~ 0
+SCSI_IO
+NoConn ~ 8550 3850
+NoConn ~ 8550 4550
+Wire Wire Line
+	7900 1800 8700 1800
+Wire Wire Line
+	8450 850  8700 850 
+$Comp
+L Device:R_Network09 RN1
+U 1 1 5FA4D960
+P 9100 1050
+F 0 "RN1" H 9588 1096 50  0000 L CNN
+F 1 "220" H 9588 1005 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP10" V 9675 1050 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 9100 1050 50  0001 C CNN
+F 4 "https://www.mouser.com/ProductDetail/652-4610X-1LF-220" H 9100 1050 50  0001 C CNN "Mouser"
+	1    9100 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Network09 RN3
+U 1 1 5FA502AD
+P 10350 1050
+F 0 "RN3" H 10838 1096 50  0000 L CNN
+F 1 "220" H 10838 1005 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP10" V 10925 1050 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 10350 1050 50  0001 C CNN
+F 4 "https://www.mouser.com/ProductDetail/652-4610X-1LF-220" H 10350 1050 50  0001 C CNN "Mouser"
+	1    10350 1050
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Network09 RN2
+U 1 1 5FA52D01
+P 9100 2000
+F 0 "RN2" H 9588 2046 50  0000 L CNN
+F 1 "330" H 9588 1955 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP10" V 9675 2000 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 9100 2000 50  0001 C CNN
+F 4 "https://www.mouser.com/ProductDetail/652-4610X-1LF-330" H 9100 2000 50  0001 C CNN "Mouser"
+	1    9100 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Network09 RN4
+U 1 1 5FA54CA6
+P 10350 2000
+F 0 "RN4" H 10838 2046 50  0000 L CNN
+F 1 "330" H 10838 1955 50  0000 L CNN
+F 2 "Resistor_THT:R_Array_SIP10" V 10925 2000 50  0001 C CNN
+F 3 "http://www.vishay.com/docs/31509/csc.pdf" H 10350 2000 50  0001 C CNN
+F 4 "https://www.mouser.com/ProductDetail/652-4610X-1LF-330" H 10350 2000 50  0001 C CNN "Mouser"
+	1    10350 2000
+	1    0    0    -1  
+$EndComp
+Connection ~ 8700 1800
+Wire Wire Line
+	8700 1800 9950 1800
+Connection ~ 8700 850 
+Wire Wire Line
+	8700 850  9950 850 
+$Comp
+L Connector_Generic:Conn_01x04 J3
+U 1 1 5F8E1558
+P 950 5350
+F 0 "J3" V 1050 5350 50  0000 L CNN
+F 1 "Programming Pins" V 1200 4950 50  0000 L CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x04_P2.54mm_Vertical" H 950 5350 50  0001 C CNN
+F 3 "~" H 950 5350 50  0001 C CNN
+	1    950  5350
+	0    -1   -1   0   
+$EndComp
+Text Label 1150 5950 1    50   ~ 0
+SCSI_ACK
+Wire Wire Line
+	1050 5550 1050 5950
+Wire Wire Line
+	1150 5550 1150 5950
+Text Label 1050 5950 1    50   ~ 0
+SCSI_BSY
+$Comp
+L power:GND #PWR0113
+U 1 1 5F92A76C
+P 950 5950
+F 0 "#PWR0113" H 950 5700 50  0001 C CNN
+F 1 "GND" V 950 5750 50  0000 C CNN
+F 2 "" H 950 5950 50  0001 C CNN
+F 3 "" H 950 5950 50  0001 C CNN
+	1    950  5950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3.3V #PWR0114
+U 1 1 5F92B1C2
+P 850 5950
+F 0 "#PWR0114" H 850 5800 50  0001 C CNN
+F 1 "+3.3V" V 850 6200 50  0000 C CNN
+F 2 "" H 850 5950 50  0001 C CNN
+F 3 "" H 850 5950 50  0001 C CNN
+	1    850  5950
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	950  5550 950  5950
+Wire Wire Line
+	850  5550 850  5950
+Wire Notes Line
+	600  5000 1450 5000
+Wire Notes Line
+	1450 5000 1450 6350
+Wire Notes Line
+	1450 6350 600  6350
+Wire Notes Line
+	600  6350 600  5000
+Wire Wire Line
+	1600 2150 1150 2150
+Text Label 1150 2150 0    50   ~ 0
+LED
+$Comp
+L power:VCC #PWR0115
+U 1 1 5FB9CE9F
+P 4050 1950
+F 0 "#PWR0115" H 4050 1800 50  0001 C CNN
+F 1 "VCC" H 4065 2123 50  0000 C CNN
+F 2 "" H 4050 1950 50  0001 C CNN
+F 3 "" H 4050 1950 50  0001 C CNN
+	1    4050 1950
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:VCC #PWR0112
+U 1 1 60659E21
+P 8250 1000
+F 0 "#PWR0112" H 8250 850 50  0001 C CNN
+F 1 "VCC" H 8265 1173 50  0000 C CNN
+F 2 "" H 8250 1000 50  0001 C CNN
+F 3 "" H 8250 1000 50  0001 C CNN
+	1    8250 1000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8250 1000 8250 1100
+Wire Notes Line
+	4550 700  4550 4600
+$Comp
+L Connector_Generic:Conn_02x20_Odd_Even J5
+U 1 1 60CCDAA0
+P 5900 2500
+F 0 "J5" H 5950 3617 50  0000 C CNN
+F 1 "Conn_02x20_Odd_Even" H 5950 3526 50  0000 C CNN
+F 2 "Connector_PinHeader_2.00mm:PinHeader_2x20_P2.00mm_Vertical" H 5900 2500 50  0001 C CNN
+F 3 "~" H 5900 2500 50  0001 C CNN
+	1    5900 2500
+	1    0    0    -1  
+$EndComp
+Text Label 6550 2800 0    50   ~ 0
+SCSI_BSY
+$Comp
+L power:GND #PWR0118
+U 1 1 60C86B07
+P 5300 3650
+F 0 "#PWR0118" H 5300 3400 50  0001 C CNN
+F 1 "GND" H 5305 3477 50  0000 C CNN
+F 2 "" H 5300 3650 50  0001 C CNN
+F 3 "" H 5300 3650 50  0001 C CNN
+	1    5300 3650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5700 1800 5300 1800
+Wire Wire Line
+	5300 1800 5300 1900
+Wire Wire Line
+	5700 1900 5300 1900
+Connection ~ 5300 1900
+Wire Wire Line
+	5300 1900 5300 2000
+Wire Wire Line
+	5700 2000 5300 2000
+Connection ~ 5300 2000
+Wire Wire Line
+	5300 2000 5300 2100
+Wire Wire Line
+	5700 2100 5300 2100
+Connection ~ 5300 2100
+Wire Wire Line
+	5300 2100 5300 2200
+Wire Wire Line
+	5700 2200 5300 2200
+Connection ~ 5300 2200
+Wire Wire Line
+	5300 2200 5300 2300
+Wire Wire Line
+	5700 2300 5300 2300
+Connection ~ 5300 2300
+Wire Wire Line
+	5300 2300 5300 2500
+Wire Wire Line
+	5700 2500 5300 2500
+Connection ~ 5300 2500
+Wire Wire Line
+	5300 2500 5300 2600
+Wire Wire Line
+	5700 2600 5300 2600
+Connection ~ 5300 2600
+Wire Wire Line
+	5300 2600 5300 2700
+Wire Wire Line
+	5700 2700 5300 2700
+Connection ~ 5300 2700
+Wire Wire Line
+	5300 2700 5300 2900
+Wire Wire Line
+	6200 2800 6550 2800
+Wire Wire Line
+	5700 2900 5300 2900
+Connection ~ 5300 2900
+Wire Wire Line
+	5300 2900 5300 3100
+Wire Wire Line
+	5700 3100 5300 3100
+Connection ~ 5300 3100
+Wire Wire Line
+	5300 3100 5300 3300
+Wire Wire Line
+	5700 3300 5300 3300
+Connection ~ 5300 3300
+Wire Wire Line
+	5300 3300 5300 3400
+Text Label 6550 1800 0    50   ~ 0
+SCSI_DAT0
+Text Label 6550 1900 0    50   ~ 0
+SCSI_DAT1
+Text Label 6550 2000 0    50   ~ 0
+SCSI_DAT2
+Text Label 6550 2100 0    50   ~ 0
+SCSI_DAT3
+Text Label 6550 2200 0    50   ~ 0
+SCSI_DAT4
+Text Label 6550 2300 0    50   ~ 0
+SCSI_DAT5
+Text Label 6550 2400 0    50   ~ 0
+SCSI_DAT6
+Text Label 6550 2500 0    50   ~ 0
+SCSI_DAT7
+Text Label 6550 2600 0    50   ~ 0
+SCSI_DBP
+Text Label 6550 2700 0    50   ~ 0
+TERM_PWR
+Text Label 5650 2800 2    50   ~ 0
+SCSI_ATN
+Wire Wire Line
+	5700 2800 5650 2800
+Text Label 6550 2900 0    50   ~ 0
+SCSI_ACK
+Wire Wire Line
+	6200 1800 6550 1800
+Wire Wire Line
+	6200 1900 6550 1900
+Wire Wire Line
+	6200 2000 6550 2000
+Wire Wire Line
+	6200 2100 6550 2100
+Wire Wire Line
+	6200 2200 6550 2200
+Wire Wire Line
+	6200 2300 6550 2300
+Wire Wire Line
+	6200 2400 6550 2400
+Wire Wire Line
+	6200 2500 6550 2500
+Wire Wire Line
+	6200 2600 6550 2600
+Wire Wire Line
+	6200 2700 6550 2700
+Wire Wire Line
+	6200 2900 6550 2900
+Text Label 5650 3000 2    50   ~ 0
+SCSI_RST
+Wire Wire Line
+	5650 3000 5700 3000
+Text Label 6550 3000 0    50   ~ 0
+SCSI_MSG
+Text Label 6550 3100 0    50   ~ 0
+SCSI_SEL
+Text Label 6550 3200 0    50   ~ 0
+SCSI_CD
+Text Label 5650 3200 2    50   ~ 0
+SCSI_IO
+Wire Wire Line
+	5650 3200 5700 3200
+Wire Wire Line
+	6200 3000 6550 3000
+Wire Wire Line
+	6200 3100 6550 3100
+Wire Wire Line
+	6200 3200 6550 3200
+Text Label 6550 3300 0    50   ~ 0
+SCSI_REQ
+Wire Wire Line
+	6200 3300 6550 3300
+Text Notes 5600 4100 0    50   ~ 0
+PB SCSI 40 Pin Header
+$Comp
+L power:VCC #PWR0101
+U 1 1 60E9084D
+P 6550 1600
+F 0 "#PWR0101" H 6550 1450 50  0001 C CNN
+F 1 "VCC" H 6565 1773 50  0000 C CNN
+F 2 "" H 6550 1600 50  0001 C CNN
+F 3 "" H 6550 1600 50  0001 C CNN
+	1    6550 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 1600 6550 1600
+NoConn ~ 6200 3500
+NoConn ~ 5700 3500
+NoConn ~ 5700 2400
+Wire Notes Line
+	7300 4200 7300 1150
+Wire Notes Line
+	7300 1150 4950 1150
+Wire Notes Line
+	4950 1150 4950 4200
+Wire Notes Line
+	4950 4200 7300 4200
+NoConn ~ 5700 1600
+Wire Wire Line
+	5700 1700 5650 1700
+Wire Wire Line
+	5300 1700 5300 1800
+Connection ~ 5300 1800
+Wire Wire Line
+	6200 1700 6300 1700
+Wire Wire Line
+	6300 1700 6300 1750
+Wire Wire Line
+	6300 1750 5650 1750
+Wire Wire Line
+	5650 1750 5650 1700
+Connection ~ 5650 1700
+Wire Wire Line
+	5650 1700 5300 1700
+NoConn ~ 1300 7200
+NoConn ~ 1300 6850
+$Comp
+L Mechanical:MountingHole_Pad H2
+U 1 1 60C8F035
+P 1300 7100
+F 0 "H2" H 1400 7149 50  0000 L CNN
+F 1 "MountingHole_Pad" H 1400 7058 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 1300 7100 50  0001 C CNN
+F 3 "~" H 1300 7100 50  0001 C CNN
+	1    1300 7100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H1
+U 1 1 5F24DEAF
+P 1300 6750
+F 0 "H1" H 1400 6799 50  0000 L CNN
+F 1 "MountingHole_Pad" H 1400 6708 50  0000 L CNN
+F 2 "MountingHole:MountingHole_2.7mm_M2.5" H 1300 6750 50  0001 C CNN
+F 3 "~" H 1300 6750 50  0001 C CNN
+	1    1300 6750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6200 3400 6550 3400
+Wire Wire Line
+	6550 3400 6550 3650
+Wire Wire Line
+	6550 3650 5300 3650
+Connection ~ 5300 3650
+Wire Wire Line
+	5700 3400 5300 3400
+Connection ~ 5300 3400
+Wire Wire Line
+	5300 3400 5300 3650
+$EndSCHEMATC
