@@ -1,3 +1,4 @@
 (sym_lib_table
-  (lib (name bluepill_scsi-rescue)(type Legacy)(uri ${KIPRJMOD}/bluepill_scsi-rescue.lib)(options "")(descr ""))
+  (lib (name "YAAJ_BluePill_Part_Like")(type "Legacy")(uri "${KIPRJMOD}/Kicad-STM32/Symbols/YAAJ_BluePill_Part_Like.lib")(options "")(descr ""))
+  (lib (name "v2-PowerBook-BLUESCSI-dehij-rescue")(type "Legacy")(uri "${KIPRJMOD}/v2-PowerBook-BLUESCSI-dehij-rescue.lib")(options "")(descr ""))
 )

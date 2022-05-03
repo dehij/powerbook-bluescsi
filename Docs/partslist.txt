@@ -1,0 +1,9 @@
+Needed for 1 unit:
+
+- 1x this PCB
+- 1x STM32F103C8T6 BluePill or CH32F103C8T6 BluePill
+- 18x SMD 1206 resistor 220 ohm
+- 18x SMD 1206 resistor 330 ohm
+- 1x 9 pin SD card slot 14x15mm (can't find a part name, it should look like this example: aliexpress.com/item/32802051702.html)
+- 1x 2x20 2.0mm pitch 90 degree header (you can also buy a 2x40 90 degree header, you just need to cut it in half)
+	it HAS to be 2.0mm pitch!

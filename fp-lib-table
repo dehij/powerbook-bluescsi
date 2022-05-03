@@ -1,3 +1,4 @@
 (fp_lib_table
-  (lib (name PBlogo)(type KiCad)(uri ${KIPRJMOD}/PBlogo.pretty)(options "")(descr ""))
+  (lib (name Footprints)(type KiCad)(uri ${KIPRJMOD}/Kicad-STM32/Footprints)(options "")(descr ""))
+  (lib (name "Other footprints")(type KiCad)(uri "${KIPRJMOD}/Other footprints")(options "")(descr ""))
 )
